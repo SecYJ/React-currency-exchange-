@@ -66,6 +66,8 @@ const App = () => {
 		return newCurrencyRateRef.current.value.trim() !== "" && newCurrencyNameRef.current.value.trim() !== "";
 	};
 
+	console.log("diu lei");
+
 	return (
 		<>
 			<h3>新增幣種</h3>

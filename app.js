@@ -76,8 +76,6 @@ const App = () => {
 		setHistory((prevHistory) => [exchangeData, ...prevHistory]);
 	};
 
-	console.log("hello world");
-
 	return (
 		<>
 			<h3>新增幣種</h3>
